@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Productos</h1>
+
+    <div class="producto" id="producto1">
+        <h3>Producto 1</h3>
+        <img src="img/MercedezGTR.jpg" alt="Producto 1">
+        <p>Precio: $50.000</p>
+        <button onclick="agregarAlCarrito('Producto 1', 50)">Agregar al Carrito</button>
+    </div>
+
+    <div class="producto">
+        <h3>Mercedez Benz Clase C</h3>
+        <img src="img/mercedezbenz.jpg" alt="Producto 2">
+        <p>Precio: $30.000</p>
+        <button onclick="agregarAlCarrito('Producto 2', 30)">Agregar al Carrito</button>
+    </div>
+    
+    <h2>Carrito de Compras</h2>
+    <div id="carrito"></div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
